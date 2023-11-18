@@ -1,0 +1,58 @@
+﻿.vista-check-list{
+  height: 300vw;
+  max-width: 1200px;
+}
+
+.icon-check-list {
+  width: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30px 35px 35px 35px 35px 35px 30px 500px;
+  grid-template-rows: repeat(4, 35px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+align-items: center;
+
+}
+
+#resultado h3 {
+  background: yellow;
+  padding: 10px;
+  margin: 10p;
+  width: 360px;
+  height: 60px;
+}
+
+#resutado span {
+  color: #000;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"]:checked {
+  background-color: #000;
+  color: #fff;
+} 
+
+input[type="submit"] {
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+}
+
+.grado {
+  font-weight: bold;
+text-justify:auto ;
+text-align: center;
+}
+
